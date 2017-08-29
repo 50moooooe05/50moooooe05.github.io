@@ -1,0 +1,70 @@
+.title{
+	color: #00b128;
+	font-size: 45px;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	margin: 10px;
+}
+
+.container{
+	width: 400px;
+	margin: 15px auto;
+}
+
+body{
+	background-image: url("colorful-watercolor-paint-texture-22-1560x1987.jpg");
+}
+
+.underline{
+	border-bottom:solid 3px #888888;
+}
+
+.menu {
+	margin: 25px 0 0 0;
+	text-align: center;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.menu a{
+	font-size: 20px;
+	margin:0 8px;
+	font-family:'Poiret One', cursive;
+	color:white;
+}
+
+.about{
+	margin: 20px 0 0 0;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Poiret One',cursive;
+	font-size:30px;
+	color:white;
+}
+
+.underline2{
+	border-bottom: solid 3px #ffffff;
+}
+
+.moji{
+	margin:33px 0 0 0;
+	text-align: center;
+	font-size:14px;
+	font-family: 'Yu Gothic';
+	font-weight:bold;
+}
+
+.moji2{
+	margin:20px 0 0 0;
+	text-align: center;
+	font-size:14px;
+	font-family: 'Yu Gothic';
+	font-weight:bold;
+}
+
+.moji3{
+	margin:20px 0 0 0;
+	text-align: center;
+	font-size:14px;
+	font-family: 'Yu Gothic';
+	font-weight:700;
+}
