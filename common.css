@@ -1,0 +1,95 @@
+*{
+    margin:0;
+}
+
+body{
+    font-family:"ten-mincho",serif;
+    position: relative;
+}
+
+body::before{
+    z-index:-1;
+    content:'';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height:100vh;
+    background-image:url( 7518822848_IMG_1465.JPG);
+    background-attachment: fixed;
+}
+
+body.show{
+    animation:fadeIn .8s ease-in-out;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+.menu{
+    background-color: #ffffff14;
+    width:100%;
+    margin:0;
+}
+
+.logo{
+    font-family:'hannari';
+    font-size:23px;
+    color:white;
+    text-align:center;
+    height:39px;
+    border-bottom: #ffffff 1px solid;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li{
+    flex-grow: 1;
+    height:40px;
+    padding-top: 10px;
+    text-align:center;
+    margin-right:0;
+}
+
+.menu li a{
+    width:auto;
+    display: block;
+    font-family:'hannari';
+    color:#ffffff;
+    text-decoration:none;
+    position:relative;
+}
+
+.menu li a:before{
+    content:'';
+    position: absolute;
+    bottom:-3px;
+    display:inline-block;
+    width:25px;
+    height:2px;
+    left:50%;
+    -moz-transform: translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform:translateX(-50%);
+    background-color: yellow;
+    border-radius:10px;
+}
+
+.menu li:hover{
+    background-color: #ffffff28;
+}
+
+.menu li a:visited{
+    color:#ffffff;
+}

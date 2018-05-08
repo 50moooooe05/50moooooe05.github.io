@@ -1,102 +1,67 @@
-.title{
-	color: #00b128;
-	font-size: 45px;
-	font-family: 'Lobster', cursive;
-	text-align: center;
-	margin: 10px;
+.wrap{
+    width:400px;
+    background-color:#ffffff73;
+    padding-top: 1px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:10px;
 }
 
-.container{
-	width: 400px;
-	margin: 15px auto;
-}
-
-body{
-	background-image:url("colorful-watercolor-paint-texture-22-1560x1987.jpg");
-	margin:0;
-	justify-content: center;
-	align-items: center;
-	height: 100vh
-
-}
-
-.underline{
-	border-bottom:solid 3px #888888;
-}
-
-.menu {
-	margin: 25px 0 0 0;
-	text-align: center;
-	background-color: rgba(0,0,0,0.7);
-}
-
-.menu a{
-	font-size: 20px;
-	margin:0 8px;
-	font-family:'Poiret One', cursive;
-	color:white;
-}
-
-.subtitle{
-	font-family: 'Poiret One', cursive;
-	font-weight: bold;
-	font-size: 20px;
-	margin: 20px 10px 0px 10px;
-	text-align: center;
-}
-
-.underline2{
-	border-bottom: solid 3px #ffffff;
-}
-
-.history{
-	font-family: 'Poiret One', cursive;
-	margin: 20px 0 0 0;
-	text-align: center;
-	font-weight: bold;
-	font-size:30px;
-	color:white;
-}
-
-.nenpyou{
-	margin: 20px 0 0 0;
-	text-align:center;
-	font-size: 15px;
-}
-table{
-	 border-collapse: separate;
-	 text-align: center;
-	 font-size: 13px;
-	 margin:10px auto 0 auto;
-}
-
-table th{
-	width: 170px;
-    padding: 10px;
-    vertical-align: top;
-    border: 1px solid #ccc;
-}
-
-.yearsold{
-	margin:8px 0 0 0;
-	text-align: left;
-	font-size: 12px;
-	font-family: 'Yu Gothic';
-	font-weight: 350;
-}
-
-.kakko{
-	margin:8px 0 0 0;
-	text-align: left;
-	font-size:9px;
-	font-family: 'Yu Gothic';
-	font-weight: 350;
+.child{
+    text-align:center;
 }
 
 .profile{
-	font-size:12px;
-	font-family:'Yu Gothic';
-	font-weight: bold;
-	border: 1px;
+    font-size:20px;
+    margin:20px;
+    color:rgb(39, 39, 39);
+    letter-spacing: 2px;
+    font-weight:700;
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color: yellow;
+    text-decoration-style: dotted;
+    text-align:center;
 }
+
+.child img{
+    border-radius:20px;
+    height:66px;
+    width:54px;
+    margin:0 auto;
+}
+
+.child #name{
+    font-size:14px;
+    font-weight: 600;
+    color: rgb(39, 39, 39);
+}
+
+.child div{
+    font-size:12px;
+    margin-top:5px;
+}
+
+.like{
+    font-size:12px;
+    margin-top:5px;
+    display: inline-block;
+    width: 100%;
+}
+
+.like ul{
+    padding: 0 0 0 60px;
+    margin-bottom:20px;
+}
+
+.like li{
+    height:20px;
+    margin-top:5px;
+}
+
+.like img{
+    margin:0 auto 15px;
+    display: block;
+}
+
 
