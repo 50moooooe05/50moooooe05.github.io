@@ -1,0 +1,75 @@
+body{
+    background-color: #FFD5E5;
+    margin: 0;
+    font-family: rukou, sans-serif;
+}
+
+.title{
+    font-weight:500;
+    color: #FE1E44;
+    font-size:55px;
+    text-align: center;
+    margin-bottom:15px;
+    border-bottom: solid 2px #FF4089;
+}
+
+.menu{
+    padding-left: 0;
+    list-style-type: none;
+    color:#FF4089;
+    font-size:30px;
+    text-decoration:none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a{
+    color:#FF4089;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    border-bottom: solid 2px #FF4089;
+}
+
+.contents{
+    text-align: center;
+    font-family: '游ゴシック体','Yu gothic',YuGothic,sans-serif;
+    color:#595658;
+    font-size:15px;
+    margin:50px 0;
+}
+
+.subtitle{
+    color:#FFFAFC;
+    text-shadow: 3px 3px 0px #FF4089;
+    font-size:45px;
+    font-family: rukou, sans-serif;
+}
+
+.link{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin:100px 0;
+}
+
+.link li{
+    width: 50px;
+    height:50px;
+    border-radius:50%;
+    background-color: #FF4089;
+    margin: 0 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.link a{
+    color:#FFFAFC;
+}
+
+.link i{
+    transform: translateY(2px);
+}
+
