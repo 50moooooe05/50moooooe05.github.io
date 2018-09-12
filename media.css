@@ -1,12 +1,12 @@
 @media(max-width:700px){
-    .title{
+    .title a{
         font-size:40px;
         margin:5px 0;
     }
 
     .menu{
         font-size:20px;
-        margin: 10px 0;
+        margin: 13px 0;
     }
 
     .contents{
@@ -15,5 +15,14 @@
 
     .subtitle{
         font-size:30px;
+    }
+
+    .subsubtitle{
+        font-size:15px;
+    }
+
+    img{
+        width:100px;
+        margin:15px 0;
     }
 }
