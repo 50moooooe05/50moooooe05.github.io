@@ -4,13 +4,12 @@ body{
     font-family: rukou, sans-serif;
 }
 
-.title a{
-    font-weight:500;
-    color: #FE1E44;
-    font-size:55px;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
+.title{
+    width: 250px;
+    height: 60px;
+    background-image: url("moepiis.svg");
+    background-repeat: no-repeat;
+    margin:0 auto;
 }
 
 .border{
