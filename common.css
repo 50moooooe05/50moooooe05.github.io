@@ -19,21 +19,33 @@ body{
 .menu{
     padding-left: 0;
     list-style-type: none;
-    color:#FF4089;
-    font-size:30px;
-    text-decoration:none;
     display: flex;
     justify-content: space-around;
     margin:20px 0;
 }
 
-.menu a{
-    color:#FF4089;
-    text-decoration: none;
+.menu .profile{
+    width: 120px;
+    height: 30px;
+    background-image: url("profile.svg");
+    background-repeat: no-repeat;
+    margin:0 auto;
 }
 
-.menu a:hover{
-    border-bottom: solid 2px #FF4089;
+.menu .work{
+    width: 100px;
+    height: 25px;
+    background-image: url("work.svg");
+    background-repeat: no-repeat;
+    margin:0 auto;
+}
+
+.menu .contact{
+    width: 120px;
+    height: 30px;
+    background-image: url("contact.svg");
+    background-repeat: no-repeat;
+    margin:0 auto;
 }
 
 .contents{
