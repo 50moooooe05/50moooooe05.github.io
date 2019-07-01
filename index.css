@@ -34,37 +34,7 @@ body{
     margin:0 auto;
 }
 
-@media(max-width:500px){
-    .wrap{
-        width: 250px;
-        height: 250px;
-    }
-
-    .title{
-        width: 200px;
-        height: 60px;
-    }
-
-    .button{
-        width: 170px;
-        height: 70px;
-    }
-}
-
-@media(min-width: 501px) and (max-width:800px){
-    .wrap{
-        width:400px;
-        height: 400px;
-    }
-
-    .title{
-        width: 350px;
-        height: 90px;
-    }
-
-    .button{
-        width: 200px;
-        height: 70px;
-    }
+.button:hover{
+    cursor: pointer;
 }
 

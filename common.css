@@ -24,33 +24,25 @@ body{
     margin:20px 0;
 }
 
-.menu .profile{
-    width: 120px;
-    height: 30px;
-    background-image: url("profile.svg");
-    background-repeat: no-repeat;
-    margin:0 auto;
+.menu a{
+    color: #FF4089;
+    font-size: 35px;
+    font-family: rukou,sans-serif;
+    text-decoration: none;
 }
 
-.menu .work{
-    width: 100px;
-    height: 25px;
-    background-image: url("work.svg");
-    background-repeat: no-repeat;
-    margin:0 auto;
+.menu a:hover{
+    text-decoration-line: solid 2px #FF4089;
 }
 
-.menu .contact{
-    width: 120px;
-    height: 30px;
-    background-image: url("contact.svg");
-    background-repeat: no-repeat;
-    margin:0 auto;
+.menu a:visited{
+    color: #FF4089;
+    text-decoration: none;
 }
 
 .contents{
     text-align: center;
-    font-family: '游ゴシック体','Yu gothic',YuGothic,sans-serif;
+    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", sans-serif;
     color:#595658;
     font-size:15px;
     margin:50px 0;

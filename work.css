@@ -5,13 +5,3 @@
 img{
     margin:30px 0 0;
 }
-
-@media(max-width:700px){
-    .work p{
-        margin:8px 0 0;
-    }
-
-    img{
-        margin:20px 0 0;
-    }
-}
