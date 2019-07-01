@@ -38,3 +38,23 @@ body{
     cursor: pointer;
 }
 
+@media screen and (max-width:500px){
+    
+}
+
+@media screen and (max-width:400px){
+    .wrap{
+        width: 200px;
+        height: 200px;
+    }
+
+    .title{
+        width: 170px;
+        height: 60px;
+    }
+
+    .button{
+        width: 150px;
+        height: 60px;
+    }
+}
